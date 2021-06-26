@@ -22,7 +22,7 @@ public class Main {
 
             Cheсker.chek(value1, value2, operation);
         } else{
-            System.out.println("Не правильный формат! Попробуйте еще раз.");
+            System.out.println("Неправильный формат! Введите выражение в формате: N * N");
             calculator();
         }
     }
