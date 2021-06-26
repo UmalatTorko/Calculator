@@ -1,8 +1,4 @@
-
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
-
 
 public class Main {
     static Scanner scanner = new Scanner(System.in);
@@ -26,7 +22,7 @@ public class Main {
 
             Cheсker.chek(value1, value2, operation);
         } else{
-            System.out.println("Проверьте корректность входных данных и введите заного!");
+            System.out.println("Не правильный формат! Попробуйте еще раз.");
             calculator();
         }
     }
